@@ -1,13 +1,14 @@
+package com.vn;
 
 public class ItemPedido {
 	public String descricao;
-	public double valorunitario;
-	public int qtd;
+	public double valorUnitario;
+	public int quantidade;
 
-	public ItemPedido(String descricao, double valorunitario, int qtd) {
+	public ItemPedido(String descricao, double valorUnitario, int quantidade) {
 		this.descricao = descricao;
-		this.valorunitario = valorunitario;
-		this.qtd = qtd;
+		this.valorUnitario = valorUnitario;
+		this.quantidade = quantidade;
 	}
 
 	public String getDescricao() {
@@ -19,18 +20,18 @@ public class ItemPedido {
 	}
 
 	public double getValorunitario() {
-		return valorunitario;
+		return valorUnitario;
 	}
 
 	public void setValorunitario(double valorunitario) {
-		this.valorunitario = valorunitario;
+		this.valorUnitario = valorunitario;
 	}
 
 	public int getQtd() {
-		return qtd;
+		return quantidade;
 	}
 
 	public void setQtd(int qtd) {
-		this.qtd = qtd;
+		this.quantidade = qtd;
 	}
 }
